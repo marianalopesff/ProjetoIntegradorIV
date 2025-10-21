@@ -1,45 +1,79 @@
 # Projeto Integrador IV
+
 **EULA Simplificado – Analisador Automático de Termos de Uso e Políticas de Privacidade**
 
+---
+
+## Descrição do Projeto
+
 O projeto consiste em desenvolver uma aplicação web capaz de receber contratos de software, aplicativos ou serviços online (EULAs, termos de uso, políticas de privacidade) e gerar automaticamente:
-- Resumo em linguagem simples, facilitando a compreensão do usuário;
-- Destaque de riscos em categorias específicas, como:
-o	Coleta e compartilhamento de dados pessoais;
-o	Cobranças automáticas ou escondidas;
-o	Compartilhamento de informações com terceiros;
-o	Jurisdição ou obrigações legais.
+
+* **Resumo em linguagem simples**, facilitando a compreensão do usuário;
+* **Destaque de riscos em categorias específicas**, como:
+
+  * Coleta e compartilhamento de dados pessoais
+  * Cobranças automáticas ou escondidas
+  * Compartilhamento de informações com terceiros
+  * Jurisdição ou obrigações legais
+
+---
 
 ## Grupo
-- Rogelio Soares
-- Mariana Lopes
-- Jordhan Fernandes
-- Murilo da Silva
-- Lucas Xavier
+
+* **Rogelio Soares**
+* **Mariana Lopes**
+* **Jordhan Fernandes**
+* **Murilo da Silva**
+* **Lucas Xavier**
+
+---
 
 ## Justificativa do Tema
-A maioria dos usuários digitais aceita contratos e políticas de privacidade sem ler, devido à linguagem técnica e à extensão dos documentos. Isso expõe os usuários a riscos como coleta excessiva de dados, cobranças inesperadas e uso indevido de informações pessoais.
+
+A maioria dos usuários digitais aceita contratos e políticas de privacidade sem ler, devido à linguagem técnica e à extensão dos documentos. Isso os expõe a riscos como **coleta excessiva de dados**, **cobranças inesperadas** e **uso indevido de informações pessoais**.
+
 Um sistema automatizado que simplifique os termos e destaque os principais riscos ajuda a:
--	Aumentar a consciência digital dos usuários
--	Reduzir incidentes de exposição de dados
--	Proporcionar transparência em serviços digitais
+
+* Aumentar a consciência digital dos usuários
+* Reduzir incidentes de exposição de dados
+* Proporcionar transparência em serviços digitais
+
+---
 
 ## Métricas de Impacto
--	Número de contratos analisados
--	Quantidade de riscos detectados e destacados
--	Feedback dos usuários sobre clareza e utilidade do resumo
--	Possível medição de tempo economizado na leitura de contratos
+
+* Número de contratos analisados
+* Quantidade de riscos detectados e destacados
+* Feedback dos usuários sobre clareza e utilidade do resumo
+* Medição do tempo economizado na leitura de contratos
+
+---
 
 ## Sociedade Impactada
 
--	Usuários digitais: alunos, profissionais, consumidores de apps e serviços online
--	Pequenos negócios e startups: ao contratar serviços ou analisar EULAs de fornecedores
--	Instituições de ensino e serviços digitais: que precisam avaliar termos de uso de plataformas utilizadas internamente
-  
-Impacto: maior compreensão e proteção legal/privacidade, reduzindo riscos de abuso e destacando informações importantes de forma acessível.
+* **Usuários digitais**: alunos, profissionais e consumidores de apps e serviços online
+* **Pequenos negócios e startups**: ao contratar serviços ou analisar EULAs de fornecedores
+* **Instituições de ensino e serviços digitais**: que precisam avaliar termos de uso de plataformas utilizadas internamente
 
-# Links
+**Impacto:** maior compreensão e proteção legal/privacidade, reduzindo riscos de abuso e destacando informações importantes de forma acessível.
 
-- Dataset: [ToSDR Terms of Service Corpus](https://www.kaggle.com/datasets/sonu1607/tosdr-terms-of-service-corpus)
+---
 
-- Apresentação Protótipo: [Video Protótipo](https://youtu.be/t9gtAb8C5UM)
+## Ferramentas e Tecnologias
+
+* **Hugging Face Transformers** e **PyTorch** — utilizados para o treinamento e fine-tuning do modelo de IA (baseado no **DistilBERT**) para análise e classificação de textos contratuais.
+* **Deep Translator** — responsável pela tradução automática dos textos para o inglês antes da análise, garantindo compatibilidade com o modelo.
+* **Scikit-learn** — utilizado na divisão dos dados em conjuntos de treino e teste, além do suporte à validação.
+* **Regex** e **Pandas** — empregados na limpeza, pré-processamento e organização dos textos de entrada.
+* **Flask** — framework backend responsável por receber os textos e retornar os resultados da análise do modelo.
+* **Vue.js** e **Tailwind CSS** — tecnologias aplicadas no desenvolvimento do frontend, garantindo uma interface moderna e responsiva.
+* **Dataset público (Kaggle – ToS;DR Corpus)** — base real de termos de serviço utilizada para o treinamento e testes do modelo.
+
+---
+
+## Links
+
+* **Dataset:** [ToSDR Terms of Service Corpus](https://www.kaggle.com/datasets/sonu1607/tosdr-terms-of-service-corpus)
+* **Apresentação Protótipo:** [Vídeo do Protótipo](https://youtu.be/t9gtAb8C5UM)
+
 
