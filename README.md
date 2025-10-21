@@ -66,7 +66,7 @@ Um sistema automatizado que simplifique os termos e destaque os principais risco
 * **Scikit-learn** — utilizado na divisão dos dados em conjuntos de treino e teste, além do suporte à validação.
 * **Regex** e **Pandas** — empregados na limpeza, pré-processamento e organização dos textos de entrada.
 * **Flask** — framework backend responsável por receber os textos e retornar os resultados da análise do modelo.
-* **Vue.js** e **Tailwind CSS** — tecnologias aplicadas no desenvolvimento do frontend, garantindo uma interface moderna e responsiva.
+* **Vue.js** e **Tailwind CSS** — tecnologias aplicadas no desenvolvimento do frontend, garantindo uma interface moderna e responsiva. (EM DESENVOLVIMENTO...)
 * **Dataset público (Kaggle – ToS;DR Corpus)** — base real de termos de serviço utilizada para o treinamento e testes do modelo.
 
 ---
