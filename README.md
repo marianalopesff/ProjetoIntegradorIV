@@ -36,3 +36,7 @@ Um sistema automatizado que simplifique os termos e destaque os principais risco
 -	Instituições de ensino e serviços digitais: que precisam avaliar termos de uso de plataformas utilizadas internamente
   
 Impacto: maior compreensão e proteção legal/privacidade, reduzindo riscos de abuso e destacando informações importantes de forma acessível.
+
+## Link do Video Protótipo
+
+[Video Protótipo](https://youtu.be/t9gtAb8C5UM)
