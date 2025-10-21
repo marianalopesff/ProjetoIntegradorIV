@@ -37,6 +37,9 @@ Um sistema automatizado que simplifique os termos e destaque os principais risco
   
 Impacto: maior compreensão e proteção legal/privacidade, reduzindo riscos de abuso e destacando informações importantes de forma acessível.
 
-## Link do Video Protótipo
+# Links
 
-[Video Protótipo](https://youtu.be/t9gtAb8C5UM)
+- Dataset: [ToSDR Terms of Service Corpus](https://www.kaggle.com/datasets/sonu1607/tosdr-terms-of-service-corpus)
+
+- Apresentação Protótipo: [Video Protótipo](https://youtu.be/t9gtAb8C5UM)
+
