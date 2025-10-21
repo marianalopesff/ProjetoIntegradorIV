@@ -71,6 +71,52 @@ Um sistema automatizado que simplifique os termos e destaque os principais risco
 
 ---
 
+## Resumo do Funcionamento do Sistema
+
+O sistema funciona de maneira integrada entre **Inteligência Artificial**, **tradução automática** e **interface web**, permitindo que o usuário compreenda de forma simples os principais riscos e pontos de atenção em contratos e políticas de privacidade.
+
+### Etapas do Processo
+
+1. **Entrada do Texto**
+   O usuário insere o conteúdo do contrato (ou termo de uso) diretamente na aplicação web.
+
+2. **Pré-processamento**
+   O texto é limpo e padronizado — removendo símbolos, espaçamentos e caracteres desnecessários — para facilitar a análise automática.
+
+3. **Tradução Automática**
+   O texto é traduzido para o inglês, garantindo compatibilidade com o modelo de linguagem utilizado na classificação.
+
+4. **Análise com Inteligência Artificial**
+   O modelo de IA, treinado com dados reais de termos de serviço, identifica o tom e o nível de risco do texto, classificando-o em três categorias:
+
+   * **Bom:** boas práticas e transparência
+   * **Neutro:** linguagem genérica, sem grandes riscos
+   * **Ruim:** possíveis riscos à privacidade ou coleta indevida de dados
+
+5. **Exibição dos Resultados**
+   O sistema retorna a análise de forma clara e resumida na própria interface web, destacando os principais pontos identificados.
+
+---
+
+### Fluxo Simplificado do Sistema
+
+```
+Usuário 
+   ↓
+Interface Web (Flask) - Protótipo
+   ↓
+Pré-processamento e Tradução
+   ↓
+Modelo de IA (Transformers + PyTorch)
+   ↓
+Classificação do Texto
+   ↓
+Resultado e Resumo exibidos ao usuário
+```
+
+---
+
+
 ## Links
 
 * **Dataset:** [ToSDR Terms of Service Corpus](https://www.kaggle.com/datasets/sonu1607/tosdr-terms-of-service-corpus)
