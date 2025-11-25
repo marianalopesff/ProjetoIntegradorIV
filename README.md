@@ -116,6 +116,12 @@ Resultado e Resumo exibidos ao usuário
 
 ---
 
+## Tutorial:
+- Para instalar as dependencias do backend (python) rode: **pip install -r requirements.txt**
+- Para instalar as dependencias do frontend rode dentro da pasta frontend: **npm install axios**
+
+
+
 
 ## Links
 

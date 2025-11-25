@@ -4,8 +4,8 @@ import torch
 import re
 
 # Carregar modelo treinado
-tokenizer = AutoTokenizer.from_pretrained("./modelo_treinado")
-model = AutoModelForSequenceClassification.from_pretrained("./modelo_treinado")
+tokenizer = AutoTokenizer.from_pretrained("backend/modelo_treinado")
+model = AutoModelForSequenceClassification.from_pretrained("backend/modelo_treinado")
 
 def limpar_texto(texto):
     texto = texto.lower()

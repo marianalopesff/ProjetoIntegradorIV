@@ -10,7 +10,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trai
 os.environ["WANDB_DISABLED"] = "true"
 
 # Caminho para os arquivos .txt do dataset
-base_path = r"C:\Users\murilo\.cache\kagglehub\datasets\sonu1607\tosdr-terms-of-service-corpus\versions\1\text"
+base_path = r"C:\Users\Asus\.cache\kagglehub\datasets\sonu1607\tosdr-terms-of-service-corpus\versions\1\text"
 files = os.listdir(base_path)
 
 # 1️⃣ Carregar dataset

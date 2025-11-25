@@ -1,13 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Aba1View from '../views/Aba1View.vue'
+import PrincipalContrato from '../views/PrincipalContrato.vue'
 import Aba2View from '../views/Aba2View.vue'
-import Aba3View from '../views/Aba3View.vue'
+
 
 
 const routes = [
-  { path: '/', name: 'Aba1', component: Aba1View },
-  { path: '/aba2', name: 'Aba2', component: Aba2View },
-  { path: '/aba3', name: 'Aba3', component: Aba3View }
+  { path: '/', name: 'Aba1', component: PrincipalContrato },
+  { path: '/aba2', name: 'Aba2', component: Aba2View }
 ]
 
 const router = createRouter({
