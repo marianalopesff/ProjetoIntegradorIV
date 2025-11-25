@@ -121,5 +121,5 @@ Resultado e Resumo exibidos ao usuário
 
 * **Dataset:** [ToSDR Terms of Service Corpus](https://www.kaggle.com/datasets/sonu1607/tosdr-terms-of-service-corpus)
 * **Apresentação Protótipo:** [Vídeo do Protótipo](https://youtu.be/t9gtAb8C5UM)
-
+* **Apresentação MVP:** [Vídeo do MVP]()
 
